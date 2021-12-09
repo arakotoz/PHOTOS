@@ -16,6 +16,7 @@ LD       = @F77@
 LDFLAGS  = -g
 SOFLAGS  = -shared
 BREWLIB  = /usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/libstdc++.dylib
+HEPMCLIB = @with_hepmc@/lib/libHepMC.dylib
 
 RANLIB   = @RANLIB@
 AR       = ar
