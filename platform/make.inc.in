@@ -13,10 +13,8 @@ F77FLAGS = @FFLAGS@ -fPIC -fno-automatic -fno-backslash -ffixed-line-length-132
 FFLAGS   = $(F77FLAGS)
 
 LD       = @F77@
-LDFLAGS  = -g
+LDFLAGS  = -g -Wl,-undefined -Wl,dynamic_lookup -Wl,-single_module
 SOFLAGS  = -shared
-BREWLIB  = /usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/libstdc++.dylib
-HEPMCLIB = @with_hepmc@/lib/libHepMC.dylib
 
 RANLIB   = @RANLIB@
 AR       = ar
