@@ -22,7 +22,6 @@
 
 #include "Photos.h"
 #include "PhotosParticle.h"
-//#include "PhotosHEPEVTEvent.h"
 
 namespace Photospp
 {

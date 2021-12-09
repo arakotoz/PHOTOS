@@ -1,4 +1,5 @@
 #include "PhotosHEPEVTParticle.h"
+#include "PhotosHEPEVTEvent.h"
 #include "Log.h"
 
 namespace Photospp
