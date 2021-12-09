@@ -1,4 +1,5 @@
 #include "HepMC/GenEvent.h"
+#include "HepMC/GenVertex.h"
 #include "PhotosHepMCParticle.h"
 #include "Log.h"
 #include "Photos.h"
