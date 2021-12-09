@@ -23,10 +23,10 @@ DIFF    = diff -ib
 CPP     = @DIRECT_CPP@
 CPPFLAGS= -C -P -traditional-cpp
 
-CC      = g++-11
+CC      = @CXX@
 CFLAGS  = @CXXFLAGS@ -fPIC -Wall -Wno-write-strings  -std=c++11
 
-GCC     = gcc-11
+GCC     = @CC@
 GCCFLAGS= -O3 -fomit-frame-pointer -DHAVE_UNDERSCORE
 
 #Uncomment to compile with debug mode turned on
