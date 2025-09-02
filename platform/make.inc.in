@@ -13,7 +13,7 @@ F77FLAGS = @FFLAGS@ -fPIC -fno-automatic -fno-backslash -ffixed-line-length-132
 FFLAGS   = $(F77FLAGS)
 
 LD       = @F77@
-LDFLAGS  = -g -Wl,-undefined -Wl,dynamic_lookup -Wl,-single_module
+LDFLAGS  = -g -Wl,-undefined -Wl,dynamic_lookup -Wl,-single_module,-headerpad_max_install_names
 SOFLAGS  = -shared
 
 RANLIB   = @RANLIB@
